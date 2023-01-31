@@ -25,7 +25,8 @@ while True:
 
   j = int(input('0 - PEDRA | 1 - PAPEL | 2 - TESOURA: '))
   while j not in [0,1,2]:
-    print
+    print('ERRO DE DIGITACAO, ESCREVA APENAS OS NUMEROS INDICADOS')
+    j = int(input('0 - PEDRA | 1 - PAPEL | 2 - TESOURA: '))
 
   print('\n=========================================')
 
